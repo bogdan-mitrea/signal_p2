@@ -1,0 +1,205 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 3.5 16-Bit/System/linker_map_ss1.xsl"?>
+<!DOCTYPE DOCUMENT SYSTEM "file:///C:/Program Files (x86)/Analog Devices/VisualDSP 3.5 16-Bit/System/linker_map.dtd">
+<DOCUMENT>
+<LINKPROJECT id='03299E48' name='p0' orig_file_name='.\Debug\tone_detection.dxe' architecture='ADSP-2181' >
+<FILE_NAME><![CDATA[.\Debug\tone_detection.dxe]]></FILE_NAME>
+<MEMORY id='032DC048' name='mem_INT_RSTI' start_address='0x0' end_address='0x3' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='033390A8' name='sec_INT_RSTI' type='SHT_PROGBITS' start_address='0x0' word_size='0x0' word_size_unmapped='0x30' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DBEC8' name='mem_INT_IRQ2' start_address='0x4' end_address='0x7' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='033392D8' name='sec_INT_IRQ2' type='SHT_PROGBITS' start_address='0x4' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DBEB8' name='mem_INT_IRQL1' start_address='0x8' end_address='0xb' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339738' name='sec_INT_IRQL1' type='SHT_PROGBITS' start_address='0x8' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC088' name='mem_INT_IRQL0' start_address='0xc' end_address='0xf' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339380' name='sec_INT_IRQL0' type='SHT_PROGBITS' start_address='0xc' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC018' name='mem_INT_SPORT0X' start_address='0x10' end_address='0x13' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='033392A0' name='sec_INT_SPORT0X' type='SHT_PROGBITS' start_address='0x10' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DBF18' name='mem_INT_SPORT0R' start_address='0x14' end_address='0x17' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339460' name='sec_INT_SPORT0R' type='SHT_PROGBITS' start_address='0x14' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DBF38' name='mem_INT_IRQE' start_address='0x18' end_address='0x1b' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339230' name='sec_INT_IRQE' type='SHT_PROGBITS' start_address='0x18' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DBF58' name='mem_INT_BDMA' start_address='0x1c' end_address='0x1f' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339620' name='sec_INT_BDMA' type='SHT_PROGBITS' start_address='0x1c' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DBFA8' name='mem_INT_IRQ1' start_address='0x20' end_address='0x23' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339268' name='sec_INT_IRQ1' type='SHT_PROGBITS' start_address='0x20' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC0D8' name='mem_INT_IRQ0' start_address='0x24' end_address='0x27' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='033394D0' name='sec_INT_IRQ0' type='SHT_PROGBITS' start_address='0x24' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC138' name='mem_INT_TIMER' start_address='0x28' end_address='0x2b' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339930' name='sec_INT_TIMER' type='SHT_PROGBITS' start_address='0x28' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC178' name='mem_INT_PWRDWN' start_address='0x2c' end_address='0x2f' type='PM' qualifier='RAM' width='0x18' words_used='0x0' words_unused='0x4' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339C78' name='sec_INT_PWRDWN' type='SHT_PROGBITS' start_address='0x2c' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC1D8' name='mem_code' start_address='0x30' end_address='0x37ba' type='PM' qualifier='RAM' width='0x18' words_used='0x378b' words_unused='0x0' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339CB0' name='sec_code' type='SHT_PROGBITS' start_address='0x30' word_size='0x45' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+<INPUT_SECTION id='033350B8' name='program' start_address='0x30' size='0x45' element_at='0x0' >
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='begin' address='0x30' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='stop' address='0x37' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='processing' address='0x38' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='det_freq' address='0x3b' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='decN' address='0x3d' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='feedback' address='0x41' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='skip_backs' address='0x4a' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='end' address='0x4d' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='setup' address='0x4e' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='restart' address='0x54' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='zloop' address='0x57' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='feedforward' address='0x5d' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='test_and_output' address='0x6c' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='no_freq' address='0x72' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='rez' address='0x73' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+<OUTPUT_SECTION id='03339CE8' name='.meminit' type='SHT_NOBITS' start_address='0x75' word_size='0x3746' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC288' name='mem_data2' start_address='0x37bb' end_address='0x3fff' type='PM' qualifier='RAM' width='0x18' words_used='0x8' words_unused='0x83d' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='033399A0' name='sec_data2' type='SHT_PROGBITS' start_address='0x37c0' word_size='0x8' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+<INPUT_SECTION id='03334F50' name='data2' start_address='0x37c0' size='0x8' element_at='0x0' >
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='coefs' address='0x37c0' size='0x8' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC148' name='mem_data1' start_address='0x0' end_address='0x2fff' type='DM' qualifier='RAM' width='0x10' words_used='0x8' words_unused='0x2ff8' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='03339E38' name='sec_data1' type='SHT_PROGBITS' start_address='0x0' word_size='0x8' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+<INPUT_SECTION id='033351D8' name='data1' start_address='0x0' size='0x2' element_at='0x0' split=''>
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='Q1Q2_buff' address='0x0' size='0x2' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='03334A40' name='data1' start_address='0x2' size='0x1' element_at='0x2' split=''>
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='port_in' address='0x2' size='0x1' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='03334A88' name='data1' start_address='0x3' size='0x1' element_at='0x3' split=''>
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='in_sample' address='0x3' size='0x1' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='03335220' name='data1' start_address='0x4' size='0x1' element_at='0x4' split=''>
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='countN' address='0x4' size='0x1' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='03334F98' name='data1' start_address='0x5' size='0x1' element_at='0x5' split=''>
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='min_tone_level' address='0x5' size='0x1' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='03335100' name='data1' start_address='0x6' size='0x1' element_at='0x6' split=''>
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='mnsqr' address='0x6' size='0x1' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+<INPUT_SECTION id='03334FE0' name='data1' start_address='0x7' size='0x1' element_at='0x7' split=''>
+<INPUT_FILE><![CDATA[.\Debug\tone_detection.doj]]></INPUT_FILE>
+<SYMBOL name='freq_OK' address='0x7' size='0x1' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</INPUT_SECTION>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC188' name='mem_heap' start_address='0x3000' end_address='0x37ff' type='DM' qualifier='RAM' width='0x10' words_used='0x0' words_unused='0x800' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='0333A420' name='sec_heap' type='SHT_PROGBITS' start_address='0x3000' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<MEMORY id='032DC128' name='mem_stack' start_address='0x3800' end_address='0x3fdf' type='DM' qualifier='RAM' width='0x10' words_used='0x0' words_unused='0x7e0' >
+<OUTPUT_SECTIONS>
+<OUTPUT_SECTION id='0333A1F0' name='sec_stack' type='SHT_PROGBITS' start_address='0x3800' word_size='0x0' word_size_unmapped='0x0' >
+<INPUT_SECTIONS>
+</INPUT_SECTIONS>
+</OUTPUT_SECTION>
+</OUTPUT_SECTIONS>
+</MEMORY>
+<LDF_SYMBOLS>
+<SYMBOL name='ldf_stack_limit' address='0x3800' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='ldf_stack_base' address='0x3fdf' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.heap' address='0x3000' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.heap_size' address='0x800' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+<SYMBOL name='.heap_end' address='0x37ff' size='0x0' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
+</LDF_SYMBOLS>
+</LINKPROJECT>
+</DOCUMENT>
