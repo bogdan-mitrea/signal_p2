@@ -1,0 +1,31 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer0                                                        0x0200       8
+DTMF_test_LED                                                     0x0208       1
+stop_LED                                                          0x0209       1
+tx_buffer0                                                        0x020A       8
+tx_wr_index0                                                      0x0212       1
+tx_rd_index0                                                      0x0213       1
+tx_counter0                                                       0x0214       1
+_seed                                                             0x0215       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+rx_wr_index0                                                      R5           1
+rx_rd_index0                                                      R4           1
+rx_counter0                                                       R7           1
+rx_buffer_overflow0                                               GPIOR0.0  1bit
+cnt                                                               R6           1
+key                                                               R9           1
+cnt_key                                                           R8           1
+ok                                                                GPIOR0.1  1bit
+build_PF                                                          R11          1
+build_LED                                                         R10          1
+error_LED                                                         R13          1
+freq_test_LED                                                     R12          1
